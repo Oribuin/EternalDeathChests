@@ -1,0 +1,25 @@
+# Configure the plugin here, If you have any issues configuring the plugin
+# Join Ori's Support Discord.
+
+deathchest-settings:
+  head-texture: '%player_name%'
+  expiry-time: 900
+  hologram:
+    enabled: true
+    message:
+      - '&bcock and ball torture'
+      - '<r:0.7>%player_name% died here lol'
+      - ' '
+      - '&b&m-----------------------------'
+deathchest-gui:
+    title: "%player_name%'s Death Chest"
+    expire-timer:
+      enabled: true
+      material: CLOCK
+      amount: 1
+      name: '#99ff99&lExpiry Timer'
+      lore:
+        - '&7This is the countdown until this'
+        - '&7death chest is removed'
+        - ''
+        - '&f%expiry%'
